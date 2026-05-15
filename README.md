@@ -4,6 +4,7 @@
 A robust, grounded Retrieval-Augmented Generation (RAG) pipeline designed for Pearson Specter Litt. This system ingests "messy" legal documents, extracts structured data, and generates professional legal drafts that improve over time by learning from operator edits.
 
 ## ✨ Key Features
+- **Live Demo**: [Legal Document RAG System](https://legal-document-rag-system.streamlit.app/)
 - **Intelligent Document Processing**: OCR fallback for scanned/low-quality PDFs with automated image enhancement (Contrast, Grayscale, Median Filter).
 - **Grounded Retrieval**: FAISS-based semantic search using `sentence-transformers` for high-precision context retrieval.
 - **Smart Feedback Loop**: Few-shot learning implementation where the system learns from previous operator edits to improve tone, style, and accuracy.
