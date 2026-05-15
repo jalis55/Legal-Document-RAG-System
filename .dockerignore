@@ -1,0 +1,15 @@
+__pycache__/
+.env
+.git/
+.gitignore
+.ipynb_checkpoints/
+data/processed/
+data/vector_db/
+data/feedback/
+.venv/
+venv/
+*.pyc
+*.pyo
+*.pyd
+.db
+.sqlite3
